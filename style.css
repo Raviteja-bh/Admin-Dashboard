@@ -65,12 +65,12 @@ li {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3 0.5fr);
-    padding: 60px;
+    padding: 20px;
 
 }
 
 .item {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 h1 {
@@ -207,7 +207,7 @@ h1 {
     grid-column: 2 / 3;
     background-color: transparent;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     grid-template-rows: repeat(3, 1fr);
     gap: 14px;
     padding: 10px;
@@ -231,7 +231,7 @@ h1 {
 }
 
 .news>div {
-    padding: 20px;
+    padding: 4%;
     border-left: 10px solid #012466;
     border-radius: 15px;
     box-shadow: 2px 4px 6px;
@@ -249,24 +249,31 @@ h1 {
 
 .icons {
     display: flex;
-    margin-top: 25%;
+    margin-top: 30%;
     justify-content: flex-end;
+    align-self: flex-end;
+    padding-bottom: 0;
+    margin-bottom: 0;
     gap: 5%;
     background-color: transparent;
 }
 
 .icons1 {
     display: flex;
-    margin-top: 30%;
+    margin-top: 40%;
     justify-content: flex-end;
+    
     gap: 5%;
     background-color: transparent;
 }
 
 .icons3 {
     display: flex;
-    margin-top: 40%;
+    margin-top: 60%;
     justify-content: flex-end;
+    align-self: flex-end;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
     gap: 5%;
     background-color: transparent;
 }
@@ -275,6 +282,7 @@ h1 {
     display: flex;
     margin-top: 40%;
     justify-content: flex-end;
+    align-self: flex-end;
     gap: 5%;
     background-color: transparent;
 }
@@ -283,6 +291,7 @@ h1 {
     display: flex;
     margin-top: 45%;
     justify-content: flex-end;
+    align-self: flex-end;
     gap: 5%;
     background-color: transparent;
 }
@@ -291,6 +300,7 @@ h1 {
     display: flex;
     margin-top: 34%;
     justify-content: flex-end;
+    align-self: flex-end;
     gap: 5%;
     background-color: transparent;
 }
@@ -321,7 +331,7 @@ h1 {
 }
 
 .AnnoucementNews>div::after {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #4d4746;
     position: relative;
     content: '';
     display: block;
@@ -406,3 +416,15 @@ h1 {
 .TrendAns {
     color: #4d4746;
 }
+
+.write {
+    background-color: transparent;
+    width: 100%;
+}
+
+.sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
