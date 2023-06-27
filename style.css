@@ -368,6 +368,8 @@ h1 {
 
 .Trend {
     padding-top: 30rem;
+    align-self: self-end;
+    margin-bottom: 10%;
 }
 
 .TrendNews {
